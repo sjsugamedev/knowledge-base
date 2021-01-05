@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //Import every page
 import Home from './pages/Home';
-import FeaturedArticles from './pages/FeaturedArticles';
+import Article01 from './pages/articles/Article01';
 
 export default function Routes(props) {
     const routes = [
         {
-            path: '/featured-articles',
-            component: FeaturedArticles
+            path: '/article01',
+            component: Article01
         }
     ]
 
