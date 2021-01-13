@@ -1,7 +1,11 @@
+body
+{
+    background-color: #ebebeb;
+}
+
 .article-page {
     margin: 0;
     position: relative;
-    background-color: #ebebeb;
 }
 
 .navbar {
@@ -69,8 +73,8 @@
 }
 
 .article-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 1in;
+    padding-right: 1in;
     padding-bottom: 30px;
 }
 
