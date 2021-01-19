@@ -40,7 +40,7 @@ function Article() {
                   </p>
                   <h3 className="article-heading">The team</h3>
                   <p className="p-indent">
-                  Knowledge Base was proposed and designed by Cole Pergerson. Anthony Sokry and Lee 
+                  Knowledge Base was proposed and designed by Cole Pergerson. Anthony Sokry and Hao Le 
                   developed the first prototype. Special thanks to the president of the club, Edward 
                   Chang, the other officers of the club, and our club advisor, James Morgan. 
                   </p>
