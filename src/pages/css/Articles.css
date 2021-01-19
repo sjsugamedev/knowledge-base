@@ -1,6 +1,7 @@
 body
 {
     background-color: #ebebeb;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .article-page {
@@ -80,11 +81,13 @@ body
 
 .article-header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 .article-title {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -101,6 +104,8 @@ body
 }
 
 .article-heading {
+    font-family: 'Play', sans-serif;
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 
@@ -108,10 +113,11 @@ body
 
 .article-img {
     text-align: center;
-    height: 450px;
+    /* This was causing some unnecessary blank space*/
+    /* height: 450px; */
     overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .article-img .img-full {

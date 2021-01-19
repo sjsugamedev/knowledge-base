@@ -46,7 +46,7 @@ function Article() {
               <div className="article-container">
                 <div className="article-header">
                   <h1 className="article-title">
-                    Using git without the command line
+                    Using Git Without The Command Line
                   </h1>
                   <div className="author-n-date">
                     <h3>Cole Pergerson</h3>
