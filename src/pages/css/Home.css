@@ -1,10 +1,78 @@
-.Home-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home h1{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(73, 73, 73);
 }
+
+.feature-article-container{
+  margin-left: 5.5rem;
+  margin-right: 5.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+ 
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+ 
+.featured {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto 5.5rem;
+}
+
+.featured h3{
+  font-size: 25px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px ;
+}
+
+ 
+@media (min-width: 600px) {
+  .photo { grid-template-columns: repeat(2, 1fr); }
+}
+ 
+
+
+.all-articles {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 7rem 5.5rem ;
+  
+}
+
+.links {
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+}
+
+.links .headers{
+  display: inline;
+  font-size: 25px;
+}
+
+.links a{
+  margin-left: 1.5rem;
+  background-color: gray;
+  border-radius: 15px;
+  padding: 2px 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.all-article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 40px ;
+   
+}
+
+.all-article-container{
+  margin: auto 5.5rem; 
+}
+
