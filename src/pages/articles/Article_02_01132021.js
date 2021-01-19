@@ -1,6 +1,19 @@
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
 import HeroImg from "./img/compass.png";
+import img01 from "./img/article_02/img_article02_01.jpg";
+import img02 from "./img/article_02/img_article02_02.jpg";
+import img03 from "./img/article_02/img_article02_03.jpg";
+import img04 from "./img/article_02/img_article02_04.jpg";
+import img05 from "./img/article_02/img_article02_05.jpg";
+import img06 from "./img/article_02/img_article02_06.jpg";
+import img07 from "./img/article_02/img_article02_07.jpg";
+import img08 from "./img/article_02/img_article02_08.jpg";
+import img09 from "./img/article_02/img_article02_09.jpg";
+import img10 from "./img/article_02/img_article02_10.jpg";
+import img11 from "./img/article_02/img_article02_11.jpg";
+import img12 from "./img/article_02/img_article02_12.jpg";
+import img13 from "./img/article_02/img_article02_13.jpg";
 
 function Article() {
   return (
@@ -198,13 +211,15 @@ function Article() {
                     at the top of the file. See images below
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img01}></img>
+                    <p className="img-sub-text">Figure 1</p>
                   </div>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img13}></img>
                   </div>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img02}></img>
+                    <p className="img-sub-text">Figure 2</p>
                   </div>
 
                   <p>
@@ -217,6 +232,11 @@ function Article() {
                     the “Uploading Changes” section below for more details on
                     that.
                   </p>
+                  
+                  <div className="article-img">
+                    <img className="img-full" src={img03}></img>
+                  </div>
+
                   <p>
                     This requires that you have a GitHub account. Click here for
                     help
@@ -234,9 +254,12 @@ function Article() {
                     collaborators
                   </p>
 
+                  
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img04}></img>
+                    <p className="img-sub-text">Figure 3</p>
                   </div>
+
 
                   <p>
                     This is the setting page of a GitHub repo (Fig. 3). Under
@@ -300,7 +323,8 @@ function Article() {
                   </p>
 
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img05}></img>
+                    <p className="img-sub-text">Figure 4</p>
                   </div>
 
                   <p>
@@ -311,6 +335,10 @@ function Article() {
                     commits you’ll be pushing. Simply push the Push button to
                     share your changes.
                   </p>
+
+                  <div className="article-img">
+                    <img className="img-full" src={img06}></img>
+                  </div>
 
                   <h3 className="article-heading">Working with others</h3>
                   <p>
@@ -348,7 +376,8 @@ function Article() {
                     Branch → ‘Merge into current branch…’ A window will appear
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img07}></img>
+                    <p className="img-sub-text">Figure 5</p>
                   </div>
                   <p>
                     In figure 5, my selected branch is master, the main project,
@@ -369,7 +398,8 @@ function Article() {
                     beforehand (Fig. 6).
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img08}></img>
+                    <p className="img-sub-text">Figure 6</p>
                   </div>
 
                   <p>Everything is fine..O_O</p>
@@ -396,7 +426,8 @@ function Article() {
                   </p>
 
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img09}></img>
+                    <p className="img-sub-text">Figure 7</p>
                   </div>
 
                   <h3 className="article-heading">
@@ -410,12 +441,14 @@ function Article() {
                     the conflicted file.
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img09}></img>
+                    <p className="img-sub-text">Figure 8</p>
                   </div>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img10}></img>
+                    <p className="img-sub-text">Figure 9</p>
                   </div>
-
+     
                   <p>
                     You should see the conflicted file once it opens and on the
                     left, you’ll see a branch symbol (Fig. 9). Click that and
@@ -431,17 +464,23 @@ function Article() {
                     conflict by selecting the incoming changes or the current
                     ones (Fig. 10)
                   </p>
+
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img11}></img>
+                    <p className="img-sub-text">Figure 10</p>
                   </div>
+
                   <p>
                     Another way to resolve conflicts is by going directly in the
                     code. In this example, I have a conflict at the variable
                     speed (Fig. 11).
                   </p>
+
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img12}></img>
+                    <p className="img-sub-text">Figure 11</p>
                   </div>
+
                   <p>
                     The green code is the current changes, the changes on the
                     current branch. The blue code is the incoming change, the
