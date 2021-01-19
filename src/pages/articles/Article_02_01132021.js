@@ -1,6 +1,6 @@
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
-import HeroImg from "./img/compass.png";
+import HeroImg from "./img/article_02/img_article02_cover.png";
 import img01 from "./img/article_02/img_article02_01.jpg";
 import img02 from "./img/article_02/img_article02_02.jpg";
 import img03 from "./img/article_02/img_article02_03.jpg";
