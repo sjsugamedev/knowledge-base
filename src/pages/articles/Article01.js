@@ -1,3 +1,4 @@
+import React from 'react';
 import '../css/Articles.css';
 import { IoMdReturnLeft } from 'react-icons/io';
 import HeroImg from './img/compass.png';
@@ -20,7 +21,7 @@ function Article() {
         <div className="navbar-collapse">
           <ul>
             <li><a href="/about">About</a></li>
-            <li><a href="/">GameDev</a></li>
+            <li><a href="https://sjsugamedev.com/">GameDev</a></li>
           </ul>
         </div>
       </div>
@@ -99,7 +100,7 @@ function Article() {
           <div className="right">
             <div className="content">
               <div className="print-menu">
-                <a className="print-link" href={pdf} target="_blank">Download Article</a>
+                <a className="print-link" href={pdf} target="_blank" rel="noreferrer">Download Article</a>
                 <hr className="line"></hr>
                 <a className="article-types" href="/">tutorials</a>
                 <p className="article-tags"> Tags: #tag #tag #tag #tag #tag</p>

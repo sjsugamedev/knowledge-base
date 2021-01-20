@@ -1,6 +1,8 @@
+import React from 'react';
+import './css/Articles.css';
 import './css/About.css';
 
-function Article() {
+function About() {
   return (
     <div className="article-page">
       <div className="navbar">
@@ -10,7 +12,7 @@ function Article() {
         <div className="navbar-collapse">
           <ul>
             <li><a href="/">About</a></li>
-            <li><a href="">GameDev</a></li>
+            <li><a href="https://sjsugamedev.com/">GameDev</a></li>
           </ul>
         </div>
       </div>
@@ -58,4 +60,4 @@ function Article() {
   );
 }
 
-export default Article;
+export default About;
