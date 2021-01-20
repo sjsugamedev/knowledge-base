@@ -18,9 +18,26 @@ html {
 
 .page-grid {
     display: grid;
+    width: auto;
+    height: 100%;
+    grid-template-areas: "left center right";
     grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
     grid-column-gap: 50px;
     margin: 0 50px;
+}
+
+.left {
+    grid-area: left;
+}
+
+.center {
+    grid-area: center;
+    word-wrap:break-word;
+}
+
+.right {
+    grid-area: right;
 }
 
 .article {
@@ -167,4 +184,28 @@ html {
 
 .table-of-content ul li a:hover {
     opacity: 60%;
+}
+
+@media only screen and (max-width: 1220px) {
+	.page-grid {
+        grid-template-areas: "right right right" "center center center" ". left .";
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        margin: 0;
+    }
+
+    .article-container {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }   
+
+    .back {
+        width: auto;
+    }
+
+    .print-menu {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
