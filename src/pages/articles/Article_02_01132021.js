@@ -1,3 +1,4 @@
+import React from 'react';
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
 import HeroImg from "./img/article_02/img_article02_cover.png";
@@ -15,6 +16,7 @@ import img10 from "./img/article_02/img_article02_10.jpg";
 import img11 from "./img/article_02/img_article02_11.jpg";
 import img12 from "./img/article_02/img_article02_12.jpg";
 import img13 from "./img/article_02/img_article02_13.jpg";
+import pdf from './download/Using git without the command line.pdf';
 
 function Article() {
   return (
@@ -28,10 +30,10 @@ function Article() {
         <div className="navbar-collapse">
           <ul>
             <li>
-              <a href="/">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="">GameDev</a>
+              <a href="https://sjsugamedev.com/">GameDev</a>
             </li>
           </ul>
         </div>
@@ -59,8 +61,8 @@ function Article() {
               </div>
               <div className="article-container">
                 <div className="article-header">
-                  <h1 className="article-title">
-                    Using Git Without The Command Line
+                  <h1 className="article-title" id="title">
+                    Using git without the command line
                   </h1>
                   <div className="author-n-date">
                     <h3>Cole Pergerson</h3>
@@ -104,7 +106,7 @@ function Article() {
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading">Setup</h2>
+                  <h2 className="article-heading" id="setup">Setup</h2>
                   <p className="p-indent">
                     Install GitHub Desktop and Visual Code. Make sure that the
                     editor for GitHub Desktop is set to Visual Code. Click here
@@ -537,14 +539,21 @@ function Article() {
           <div className="right">
             <div className="content">
               <div className="print-menu">
-                <a className="print-link" href="">
-                  Print Article
+                <a className="print-link" href={pdf} target="_blank" rel="noreferrer">
+                  Download Article
                 </a>
                 <hr className="line"></hr>
                 <a className="article-types" href="/">
                   tutorials
                 </a>
                 <p className="article-tags"> Tags: #tag #tag #tag #tag #tag</p>
+                <div className="table-of-content">
+                  <p>Table of Content:</p>
+                  <ul>
+                    <li><a href="#title">Title</a></li>
+                    <li><a href="#setup">Setup</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
