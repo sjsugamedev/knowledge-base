@@ -9,12 +9,12 @@ function Home() {
     <div className = "home" alt = "">
       <h1 className = "main-header">Game Design and Development Resources</h1>
 
-      <div className = "feature-article-container">
+      <div className = "home-feature-article-container">
        
-       <div className = "featured">
+       <div className = "home-featured">
          
          <h3>Featured</h3>
-          <div className = "grid-container">
+          <div className = "home-grid-container">
             <div className = "feature-article">
               <img src = {Picture} className = "photo" alt =''></img>
               <h4>Head of Article</h4>
@@ -37,8 +37,8 @@ function Home() {
        
        
          
-        <div className = "all-articles" alt = "">
-          <div className="all-article-container">
+        <div className = "home-all-articles" alt = "">
+          <div className="home-all-article-container">
             <div className="links">
               <h3 className = "headers">All Articles</h3>
               <a href="">Tutorial</a>
@@ -47,7 +47,7 @@ function Home() {
               <a href="">Research</a>
             </div>
             
-            <div className = "all-article-grid">
+            <div className = "home-all-article-grid">
               <div className = "all-article">
                 <img src = {Picture} className = "photo" alt =''></img>
                 <h4>Head of Article</h4>
