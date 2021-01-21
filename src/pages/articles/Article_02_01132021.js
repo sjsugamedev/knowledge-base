@@ -64,7 +64,7 @@ function Article() {
                   </h1>
                   <div className="author-n-date">
                     <h3>Cole Pergerson</h3>
-                    <h3>Date 01/13/2021</h3>
+                    <h3>Date 01/27/2021</h3>
                   </div>
                 </div>
 
