@@ -1,6 +1,7 @@
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
 import HeroImg from "./img/article_02/img_article02_cover.png";
+import HeroImg2 from "./img/article_02/img_article02_cover_2.png";
 import img01 from "./img/article_02/img_article02_01.jpg";
 import img02 from "./img/article_02/img_article02_02.jpg";
 import img03 from "./img/article_02/img_article02_03.jpg";
@@ -54,7 +55,7 @@ function Article() {
           <div className="center">
             <div className="article">
               <div className="hero-img">
-                <img src={HeroImg}></img>
+                <img src={HeroImg2}></img>
               </div>
               <div className="article-container">
                 <div className="article-header">
