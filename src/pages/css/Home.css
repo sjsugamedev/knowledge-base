@@ -16,11 +16,21 @@
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
- 
+
+.thumbnail
+{
+  padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
+  position: relative;
+  overflow: hidden;
+}
 
 .photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
-  height: auto;
 }
  
 .featured {
