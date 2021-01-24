@@ -92,7 +92,8 @@ function Article() {
                     <u>GitHub Desktop</u>
                     <br></br>A friendly UI that provides a visual process for
                     most of the git commands. Documentation:
-                    https://docs.github.com/en/desktop
+                    <a href="https://docs.github.com/en/desktop" target="_blank"> https://docs.github.com/en/desktop</a>
+                    
                   </p>
                   <p>
                     <u>Visual Code (or Atom)</u>
@@ -100,7 +101,8 @@ function Article() {
                     conflict tools. If GitHub Desktop encounters a merge
                     conflict, then you can open the conflicted file with Visual
                     Code and resolve conflicts. Documentation:
-                    https://code.visualstudio.com/docs/editor/versioncontrol
+                    <a href="https://code.visualstudio.com/docs/editor/versioncontrol" target="_blank"> https://code.visualstudio.com/docs/editor/versioncontrol</a>
+                    
                   </p>
                 </div>
 
@@ -108,8 +110,10 @@ function Article() {
                   <h2 className="article-heading" id="setup">Setup</h2>
                   <p className="p-indent">
                     Install GitHub Desktop and Visual Code. Make sure that the
-                    editor for GitHub Desktop is set to Visual Code. Click here
-                    for help
+                    editor for GitHub Desktop is set to Visual Code. 
+                    <a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/configuring-a-default-editor" target="_blank"> Click here
+                    for help</a>
+                    
                   </p>
                 </div>
 
@@ -127,8 +131,10 @@ function Article() {
                     download git on to your computer.
                   </p>
                   <p>
-                    Git:https://git-scm.com/ <br></br>
-                    GitHub: https://github.com/features
+                  
+                    Git:<a href="https://git-scm.com/" target="_blank"> https://git-scm.com/</a>
+                    <br></br>                    
+                    GitHub:<a href="https://github.com/features" target="_blank"> https://github.com/features</a>
                   </p>
                   <p>
                     There are some git concepts that you should know. Commits
@@ -240,8 +246,10 @@ function Article() {
                   </div>
 
                   <p>
-                    This requires that you have a GitHub account. Click here for
-                    help
+                    This requires that you have a GitHub account. 
+                    <a target="blank" href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/authenticating-to-github"> Click here for
+                    help</a>
+                    
                   </p>
                   <p>
                     <u>Inviting your team to collaborate</u>
@@ -305,8 +313,9 @@ function Article() {
                   </p>
                   <p>
                     There are two ways to do this.<br></br>
-                    Clone from GitHub desktop<br></br>
-                    Clone from GitHub.com
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop"> Clone from GitHub desktop</a>
+                    <br></br>
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop"> Clone from GitHub.com</a>
                   </p>
                   <p>
                     Clone the project, choose where you want to store it, and
@@ -320,8 +329,8 @@ function Article() {
                     changes, which is git's way of saying that these changes are
                     good and ready to be sent to everyone else. To commit,
                     simply add a comment and press the blue button at the
-                    button. Click here for a more detailed explanation. Then you
-                    have one more step, which is to push those changes.
+                    button. <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project">
+                    Click here for a more detailed explanation.</a> Then you have one more step, which is to push those changes.
                   </p>
 
                   <div className="article-img">
@@ -363,7 +372,9 @@ function Article() {
                     one place independent of all the other branches. This way
                     you won’t lose work by bringing changes together.
                   </p>
-                  <p>Click here for a detailed guide to branches</p>
+                  <p>
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches">Click here for a detailed guide to branches.</a>
+                  </p>
                   <h3 className="article-heading" id="tc-merging-changes">Merging changes</h3>
                   <p>
                     Once everyone is working on their own branch, there will be
@@ -391,7 +402,9 @@ function Article() {
                     important that you read and trust what is said before
                     merging. Click merge, it is that easy!
                   </p>
-                  <p>Click here for a, somewhat, detailed guide to merging</p>
+                  <p>
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch">Click here for a, somewhat, detailed guide to merging.</a>
+                  </p>
                   <p>
                     <u>Resolving merge conflicts in GitHub Desktop</u>
                     <br></br>
