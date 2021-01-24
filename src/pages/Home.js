@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Home.css';
 import Picture from './images/picture1.jpg';
+import Article02 from './images/img_article02_thumbnail.jpg'
 
  
 
@@ -64,42 +65,58 @@ function Home() {
             
             <div className = "all-article-grid">
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Article02} className = "photo" alt =''></img>
+                </div>
                 <h3>Using git without the command line</h3>
                 <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>
               <div className = "all-article">
-                <img src = {Picture} className = "photo" alt =''></img>
+                <div className="thumbnail">
+                  <img src = {Picture} className = "photo" alt =''></img>
+                </div>
                 <h3>Head of Article</h3>
                 <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
               </div>

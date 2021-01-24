@@ -34,7 +34,7 @@ function About() {
                   <h3 className="about-article-heading">What is Knowledge Base</h3>
                   <p className="p-indent">
                   Knowledge Base is a collection of articles related to game design and development 
-                  made by the members of the game development club at SJSU. The purpose of this site 
+                  made by the members of the game development club at San Jose State University. The purpose of this site 
                   was to provide a space for the members of our club to share helpful resources and 
                   information to others. For recruiters and industry professionals Knowledge Base 
                   provides insight into the skills of our members and the challenges we are trying 
@@ -42,13 +42,42 @@ function About() {
                   </p>
                   <h3 className="about-article-heading">The team</h3>
                   <p className="p-indent">
-                  Knowledge Base was proposed and designed by Cole Pergerson. Anthony Sokry and Lee 
-                  developed the first prototype. Special thanks to the president of the club, Edward 
-                  Chang, the other officers of the club, and our club advisor, James Morgan. 
+                  Knowledge Base was proposed and designed by Cole Pergerson. He worked with Anthony 
+                  Sokry and Hao Le to develop the first prototype. This site couldn’t have been made 
+                  without the support of the president of the club, Edward Chang, the other officers 
+                  of the club, and our club advisor, James Morgan.  
                   </p>
                 </div>
               </div>
             </div>
+            <div className="article">
+              <div className="about-article-container">
+                <div className="article-header">
+                  <h1 className="article-title">QnA</h1>
+                </div>
+
+                <div className="article-text">
+                  <h3 className="about-article-heading">What is this site for?</h3>
+                  <p className="p-indent">
+                  </p>
+                  <h3 className="about-article-heading">Can I add my own article?</h3>
+                  <p className="p-indent">
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="article">
+              <div className="about-article-container">
+                <div className="article-header">
+                  <h1 className="article-title">How KB started</h1>
+                </div>
+
+                <div className="article-text">
+                  
+                </div>
+              </div>
+            </div>           
           </div>
 
           <div className="right">
