@@ -1,6 +1,8 @@
+import React from 'react';
+import './css/Articles.css';
 import './css/About.css';
 
-function Article() {
+function About() {
   return (
     <div className="article-page">
       <div className="navbar">
@@ -10,7 +12,7 @@ function Article() {
         <div className="navbar-collapse">
           <ul>
             <li><a href="/">About</a></li>
-            <li><a href="">GameDev</a></li>
+            <li><a href="https://sjsugamedev.com/">GameDev</a></li>
           </ul>
         </div>
       </div>
@@ -23,13 +25,13 @@ function Article() {
 
           <div className="center">
             <div className="article">
-              <div className="article-container">
+              <div className="about-article-container">
                 <div className="article-header">
                   <h1 className="article-title">About Knowledge Base</h1>
                 </div>
 
                 <div className="article-text">
-                  <h3 className="article-heading">What is Knowledge Base</h3>
+                  <h3 className="about-article-heading">What is Knowledge Base</h3>
                   <p className="p-indent">
                   Knowledge Base is a collection of articles related to game design and development 
                   made by the members of the game development club at SJSU. The purpose of this site 
@@ -38,7 +40,7 @@ function Article() {
                   provides insight into the skills of our members and the challenges we are trying 
                   to overcome.
                   </p>
-                  <h3 className="article-heading">The team</h3>
+                  <h3 className="about-article-heading">The team</h3>
                   <p className="p-indent">
                   Knowledge Base was proposed and designed by Cole Pergerson. Anthony Sokry and Lee 
                   developed the first prototype. Special thanks to the president of the club, Edward 
@@ -58,4 +60,4 @@ function Article() {
   );
 }
 
-export default Article;
+export default About;

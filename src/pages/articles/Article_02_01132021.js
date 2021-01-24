@@ -1,3 +1,4 @@
+import React from 'react';
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
 import HeroImg from "./img/compass.png";
@@ -18,7 +19,7 @@ function Article() {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="">GameDev</a>
+              <a href="https://sjsugamedev.com/">GameDev</a>
             </li>
           </ul>
         </div>
@@ -498,7 +499,7 @@ function Article() {
           <div className="right">
             <div className="content">
               <div className="print-menu">
-                <a className="print-link" href={pdf} target="_blank">
+                <a className="print-link" href={pdf} target="_blank" rel="noreferrer">
                   Download Article
                 </a>
                 <hr className="line"></hr>
