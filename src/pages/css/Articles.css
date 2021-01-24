@@ -1,51 +1,17 @@
-html {
-    scroll-behavior: smooth;
+body
+{
+    /*background-color: #ebebeb;*/
+    background-image: url("../../system/img/bng_grid.jpg");
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 
-body {
-    background-color: #ebebeb;
+html {
+    scroll-behavior: smooth;
 }
 
 .article-page {
     margin: 0;
     position: relative;
-}
-
-.navbar {
-    padding: 10px 20px;
-    background-color: white;
-    box-shadow: 0 1px 5px rgba(0,0,2,.23);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.navbar-header {
-    float: left;
-}
-
-.navbar-title {
-    color: black;
-    text-decoration: none;
-}
-
-.navbar-collapse ul {
-    margin: 0;
-    list-style: none;
-    float: right;
-}
-
-.navbar-collapse ul li {
-    display: inline;
-    margin: 10px;
-}
-
-.navbar-collapse ul li a {
-    text-decoration: none;
-    color: black;
 }
 
 .page-body {
@@ -54,25 +20,48 @@ body {
 
 .page-grid {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    width: auto;
+    height: 100%;
+    grid-template-areas: "left center right";
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
     grid-column-gap: 50px;
     margin: 0 50px;
+}
+
+.left {
+    grid-area: left;
+}
+
+.center {
+    grid-area: center;
+    word-wrap:break-word;
+}
+
+.right {
+    grid-area: right;
 }
 
 .article {
     background-color: white;
     box-shadow: 0 0 5px rgba(0,0,2,.23);
+    margin-bottom: 20px;
 }
 
 .hero-img {
     text-align: center;
-    height: 500px;
-    overflow: hidden;
+    overflow: hidden;    
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    position: relative;
 }
 
 .hero-img img {
-    /* max-width: 1032px; */
-    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .article-container {
@@ -83,11 +72,13 @@ body {
 
 .article-header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .article-title {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -104,6 +95,8 @@ body {
 }
 
 .article-heading {
+    font-family: 'Play', sans-serif;
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 
@@ -111,15 +104,17 @@ body {
 
 .article-img {
     text-align: center;
-    height: 450px;
+    /* This was causing some unnecessary blank space*/
+    /* height: 450px; */
     overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .article-img .img-full {
     max-width: 100%;
 }
+
 
 .back {
     width: 180px;
@@ -145,7 +140,7 @@ body {
 }
 
 .print-menu {
-    width: 120px;
+    width: 200px;
     margin-right: auto;
     padding: 1em 2em;
     font-size: 16px;
@@ -194,8 +189,44 @@ body {
 
 .table-of-content ul {
     margin-top: 0;
+    padding: 15px;
+}
+
+.table-of-content ul li a p
+{
+    display:inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .table-of-content ul li a:hover {
     opacity: 60%;
+}
+
+@media only screen and (max-width: 1220px) {
+	.page-grid {
+        grid-template-areas: "right right right" "center center center" ". left .";
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        margin: 0;
+    }
+
+    .article-container {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }   
+
+    .back {
+        width: auto;
+    }
+
+    .print-menu {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
