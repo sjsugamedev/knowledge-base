@@ -1,7 +1,6 @@
 import React from 'react';
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
-import HeroImg from "./img/article_02/img_article02_cover.png";
 import HeroImg2 from "./img/article_02/img_article02_cover_2.png";
 import img01 from "./img/article_02/img_article02_01.jpg";
 import img02 from "./img/article_02/img_article02_02.jpg";
@@ -115,7 +114,7 @@ function Article() {
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading">Using GitHub Desktop</h2>
+                  <h2 className="article-heading" id="tc-using-github-desktop">Using GitHub Desktop</h2>
                   <h3 className="article-heading">What is Git and GitHub?</h3>
                   <p className="p-indent">
                     Git is a version control tool, meaning that it keeps track
@@ -150,7 +149,7 @@ function Article() {
                     repository stored in the cloud. You will be pulling commits
                     from the origin and pushing your commits to the origin.
                   </p>
-                  <h3 className="article-heading">
+                  <h3 className="article-heading" id="tc-im-the-host">
                     I’m the host of the project
                   </h3>
                   <p>
@@ -187,7 +186,7 @@ function Article() {
                     repo folder.
                   </p>
                   <p>
-                    One those steps are created, you should see changes recorded
+                    Once those steps are created, you should see changes recorded
                     in GitHub Desktop (Fig. 2). If you’re using Unity, check
                     “Note for Unity” below first. When you’re ready, write a
                     summary of the changes, “Uploaded project” is fine. Then
@@ -279,7 +278,7 @@ function Article() {
                     confusing for anyone not familiar with GitHub, but luckily
                     it’s an easy problem to fix.
                   </p>
-                  <h3 className="article-heading">
+                  <h3 className="article-heading" id="tc-im-joining">
                     I’m trying to join the project
                   </h3>
                   <p>
@@ -313,7 +312,7 @@ function Article() {
                     Clone the project, choose where you want to store it, and
                     then open the project.
                   </p>
-                  <h3 className="article-heading">Uploading Changes</h3>
+                  <h3 className="article-heading" id="tc-uploading">Uploading Changes</h3>
                   <p>
                     Git automatically your records changes and GitHub Desktop
                     will list them under the Changes tab. In Figure 4, there are
@@ -343,7 +342,7 @@ function Article() {
                     <img className="img-full" src={img06}></img>
                   </div>
 
-                  <h3 className="article-heading">Working with others</h3>
+                  <h3 className="article-heading" id="tc-working-with-others">Working with others</h3>
                   <p>
                     You now know how to upload changes, but how do you upload
                     changes that don’t conflict with your teammate’s work? This
@@ -365,7 +364,7 @@ function Article() {
                     you won’t lose work by bringing changes together.
                   </p>
                   <p>Click here for a detailed guide to branches</p>
-                  <h3 className="article-heading">Merging changes</h3>
+                  <h3 className="article-heading" id="tc-merging-changes">Merging changes</h3>
                   <p>
                     Once everyone is working on their own branch, there will be
                     a point where all those changes need to come together to
@@ -433,7 +432,7 @@ function Article() {
                     <p className="img-sub-text">Figure 7</p>
                   </div>
 
-                  <h3 className="article-heading">
+                  <h3 className="article-heading" id="tc-using-vs">
                     Using Visual Code to solve merge conflicts
                   </h3>
                   <p>
@@ -499,7 +498,7 @@ function Article() {
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading">Our Best Practices</h2>
+                  <h2 className="article-heading" id="tc-best-practices">Our Best Practices</h2>
                   <h3 className="article-heading">Learn git command line :)</h3>
                   <p>
                     I highly recommend learning git command line because that
@@ -550,8 +549,16 @@ function Article() {
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
-                    <li><a href="#title">Title</a></li>
-                    <li><a href="#setup">Setup</a></li>
+                    <li><a href="#tc-title"><p>Title</p></a></li>
+                    <li><a href="#tc-setup"><p>Setup</p></a></li>
+                    <li><a href="#tc-using-github-desktop"><p>Using GitHub Desktop</p></a></li>
+                    <li><a href="#tc-im-the-host"><p>I'm the host of the project</p></a></li>
+                    <li><a href="#tc-im-joining"><p>I'm tying to join the project</p></a></li>
+                    <li><a href="#tc-uploading"><p>Uploading changes</p></a></li>
+                    <li><a href="#tc-working-with-others"><p>Working with others</p></a></li>
+                    <li><a href="#tc-merging-changes"><p>Merging changes</p></a></li>
+                    <li><a href="#tc-using-vs"><p>Using Visual Code to solve merges</p></a></li>
+                    <li><a href="#tc-best-practices"><p>Best practices for git</p></a></li>
                   </ul>
                 </div>
               </div>

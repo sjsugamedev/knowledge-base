@@ -49,11 +49,9 @@ html {
 
 .hero-img {
     text-align: center;
-    position: relative;
-    overflow: hidden;
-    
+    overflow: hidden;    
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    position: relative; /* If you want text inside of it */
+    position: relative;
 }
 
 .hero-img img {
@@ -73,7 +71,7 @@ html {
 
 .article-header {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -141,7 +139,7 @@ html {
 }
 
 .print-menu {
-    width: 120px;
+    width: 200px;
     margin-right: auto;
     padding: 1em 2em;
     font-size: 16px;
@@ -190,6 +188,18 @@ html {
 
 .table-of-content ul {
     margin-top: 0;
+    padding: 15px;
+}
+
+.table-of-content ul li a p
+{
+    display:inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .table-of-content ul li a:hover {
