@@ -62,17 +62,30 @@ function Home() {
             </div>
             
             <div className = "home-all-article-grid">
-              <Link to="">
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Article02} className = "photo" alt =''></img>
+
+              <Link to="/using-git-without-cmd">
+                <div className = "all-article">
+                  <div className="thumbnail">
+                    <img src = {Article02} className = "photo" alt =''></img>
+                  </div>
+                  <h3>Using git without the command line</h3>
+                  <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
                 </div>
-                <h3>Using git without the command line</h3>
-                <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
-              </div>
               </Link>
+
+              {/* <Link to="/using-git-without-cmd">
+                <div className = "all-article">
+                  <div className="thumbnail">
+                    <img src = {Article02} className = "photo" alt =''></img>
+                  </div>
+                  <h3>Using git without the command line</h3>
+                  <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
+                </div>
+              </Link> */}
               
+
             </div>
+            
           </div>
         </div>
          
