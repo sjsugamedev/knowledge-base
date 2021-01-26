@@ -1,11 +1,13 @@
+body
+{
+    /*background-color: #ebebeb;*/
+    background-image: url("../../system/img/bng_grid.jpg");
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
 html {
     scroll-behavior: smooth;
 }
-
-/* body {
-    background-color: #ebebeb;
-    font-family: 'Open Sans', sans-serif;
-} */
 
 .article-page {
     margin: 0;
@@ -21,7 +23,7 @@ html {
     width: auto;
     height: 100%;
     grid-template-areas: "left center right";
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 50px;
     margin: 0 50px;
@@ -43,17 +45,23 @@ html {
 .article {
     background-color: white;
     box-shadow: 0 0 5px rgba(0,0,2,.23);
+    margin-bottom: 20px;
 }
 
 .hero-img {
     text-align: center;
-    height: 500px;
-    overflow: hidden;
+    overflow: hidden;    
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    position: relative;
 }
 
 .hero-img img {
-    /* max-width: 1032px; */
-    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .article-container {
@@ -64,7 +72,7 @@ html {
 
 .article-header {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -107,6 +115,7 @@ html {
     max-width: 100%;
 }
 
+
 .back {
     width: 180px;
     margin-left: auto;
@@ -131,7 +140,7 @@ html {
 }
 
 .print-menu {
-    width: 120px;
+    width: 200px;
     margin-right: auto;
     padding: 1em 2em;
     font-size: 16px;
@@ -180,6 +189,18 @@ html {
 
 .table-of-content ul {
     margin-top: 0;
+    padding: 15px;
+}
+
+.table-of-content ul li a p
+{
+    display:inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .table-of-content ul li a:hover {

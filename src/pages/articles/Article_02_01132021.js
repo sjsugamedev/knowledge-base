@@ -1,7 +1,20 @@
 import React from 'react';
 import "../css/Articles.css";
 import { IoMdReturnLeft } from "react-icons/io";
-import HeroImg from "./img/compass.png";
+import HeroImg2 from "./img/article_02/img_article02_cover_2.png";
+import img01 from "./img/article_02/img_article02_01.jpg";
+import img02 from "./img/article_02/img_article02_02.jpg";
+import img03 from "./img/article_02/img_article02_03.jpg";
+import img04 from "./img/article_02/img_article02_04.jpg";
+import img05 from "./img/article_02/img_article02_05.jpg";
+import img06 from "./img/article_02/img_article02_06.jpg";
+import img07 from "./img/article_02/img_article02_07.jpg";
+import img08 from "./img/article_02/img_article02_08.jpg";
+import img09 from "./img/article_02/img_article02_09.jpg";
+import img10 from "./img/article_02/img_article02_10.jpg";
+import img11 from "./img/article_02/img_article02_11.jpg";
+import img12 from "./img/article_02/img_article02_12.jpg";
+import img13 from "./img/article_02/img_article02_13.jpg";
 import pdf from './download/Using git without the command line.pdf';
 
 function Article() {
@@ -43,7 +56,7 @@ function Article() {
           <div className="center">
             <div className="article">
               <div className="hero-img">
-                <img src={HeroImg}></img>
+                <img src={HeroImg2}></img>
               </div>
               <div className="article-container">
                 <div className="article-header">
@@ -52,7 +65,7 @@ function Article() {
                   </h1>
                   <div className="author-n-date">
                     <h3>Cole Pergerson</h3>
-                    <h3>Date 01/13/2021</h3>
+                    <h3>Date 01/27/2021</h3>
                   </div>
                 </div>
 
@@ -79,7 +92,8 @@ function Article() {
                     <u>GitHub Desktop</u>
                     <br></br>A friendly UI that provides a visual process for
                     most of the git commands. Documentation:
-                    https://docs.github.com/en/desktop
+                    <a href="https://docs.github.com/en/desktop" target="_blank"> https://docs.github.com/en/desktop</a>
+                    
                   </p>
                   <p>
                     <u>Visual Code (or Atom)</u>
@@ -87,7 +101,8 @@ function Article() {
                     conflict tools. If GitHub Desktop encounters a merge
                     conflict, then you can open the conflicted file with Visual
                     Code and resolve conflicts. Documentation:
-                    https://code.visualstudio.com/docs/editor/versioncontrol
+                    <a href="https://code.visualstudio.com/docs/editor/versioncontrol" target="_blank"> https://code.visualstudio.com/docs/editor/versioncontrol</a>
+                    
                   </p>
                 </div>
 
@@ -95,13 +110,15 @@ function Article() {
                   <h2 className="article-heading" id="setup">Setup</h2>
                   <p className="p-indent">
                     Install GitHub Desktop and Visual Code. Make sure that the
-                    editor for GitHub Desktop is set to Visual Code. Click here
-                    for help
+                    editor for GitHub Desktop is set to Visual Code. 
+                    <a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/configuring-a-default-editor" target="_blank"> Click here
+                    for help</a>
+                    
                   </p>
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading">Using GitHub Desktop</h2>
+                  <h2 className="article-heading" id="tc-using-github-desktop">Using GitHub Desktop</h2>
                   <h3 className="article-heading">What is Git and GitHub?</h3>
                   <p className="p-indent">
                     Git is a version control tool, meaning that it keeps track
@@ -114,8 +131,10 @@ function Article() {
                     download git on to your computer.
                   </p>
                   <p>
-                    Git:https://git-scm.com/ <br></br>
-                    GitHub: https://github.com/features
+                  
+                    Git:<a href="https://git-scm.com/" target="_blank"> https://git-scm.com/</a>
+                    <br></br>                    
+                    GitHub:<a href="https://github.com/features" target="_blank"> https://github.com/features</a>
                   </p>
                   <p>
                     There are some git concepts that you should know. Commits
@@ -136,7 +155,7 @@ function Article() {
                     repository stored in the cloud. You will be pulling commits
                     from the origin and pushing your commits to the origin.
                   </p>
-                  <h3 className="article-heading">
+                  <h3 className="article-heading" id="tc-im-the-host">
                     I’m the host of the project
                   </h3>
                   <p>
@@ -173,7 +192,7 @@ function Article() {
                     repo folder.
                   </p>
                   <p>
-                    One those steps are created, you should see changes recorded
+                    Once those steps are created, you should see changes recorded
                     in GitHub Desktop (Fig. 2). If you’re using Unity, check
                     “Note for Unity” below first. When you’re ready, write a
                     summary of the changes, “Uploaded project” is fine. Then
@@ -200,13 +219,15 @@ function Article() {
                     at the top of the file. See images below
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img01}></img>
+                    <p className="img-sub-text">Figure 1</p>
                   </div>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img13}></img>
                   </div>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img02}></img>
+                    <p className="img-sub-text">Figure 2</p>
                   </div>
 
                   <p>
@@ -219,9 +240,16 @@ function Article() {
                     the “Uploading Changes” section below for more details on
                     that.
                   </p>
+                  
+                  <div className="article-img">
+                    <img className="img-full" src={img03}></img>
+                  </div>
+
                   <p>
-                    This requires that you have a GitHub account. Click here for
-                    help
+                    This requires that you have a GitHub account. 
+                    <a target="blank" href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/authenticating-to-github"> Click here for
+                    help</a>
+                    
                   </p>
                   <p>
                     <u>Inviting your team to collaborate</u>
@@ -236,9 +264,12 @@ function Article() {
                     collaborators
                   </p>
 
+                  
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img04}></img>
+                    <p className="img-sub-text">Figure 3</p>
                   </div>
+
 
                   <p>
                     This is the setting page of a GitHub repo (Fig. 3). Under
@@ -255,7 +286,7 @@ function Article() {
                     confusing for anyone not familiar with GitHub, but luckily
                     it’s an easy problem to fix.
                   </p>
-                  <h3 className="article-heading">
+                  <h3 className="article-heading" id="tc-im-joining">
                     I’m trying to join the project
                   </h3>
                   <p>
@@ -282,14 +313,15 @@ function Article() {
                   </p>
                   <p>
                     There are two ways to do this.<br></br>
-                    Clone from GitHub desktop<br></br>
-                    Clone from GitHub.com
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop"> Clone from GitHub desktop</a>
+                    <br></br>
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop"> Clone from GitHub.com</a>
                   </p>
                   <p>
                     Clone the project, choose where you want to store it, and
                     then open the project.
                   </p>
-                  <h3 className="article-heading">Uploading Changes</h3>
+                  <h3 className="article-heading" id="tc-uploading">Uploading Changes</h3>
                   <p>
                     Git automatically your records changes and GitHub Desktop
                     will list them under the Changes tab. In Figure 4, there are
@@ -297,12 +329,13 @@ function Article() {
                     changes, which is git's way of saying that these changes are
                     good and ready to be sent to everyone else. To commit,
                     simply add a comment and press the blue button at the
-                    button. Click here for a more detailed explanation. Then you
-                    have one more step, which is to push those changes.
+                    button. <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project">
+                    Click here for a more detailed explanation.</a> Then you have one more step, which is to push those changes.
                   </p>
 
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img05}></img>
+                    <p className="img-sub-text">Figure 4</p>
                   </div>
 
                   <p>
@@ -314,7 +347,11 @@ function Article() {
                     share your changes.
                   </p>
 
-                  <h3 className="article-heading">Working with others</h3>
+                  <div className="article-img">
+                    <img className="img-full" src={img06}></img>
+                  </div>
+
+                  <h3 className="article-heading" id="tc-working-with-others">Working with others</h3>
                   <p>
                     You now know how to upload changes, but how do you upload
                     changes that don’t conflict with your teammate’s work? This
@@ -335,8 +372,10 @@ function Article() {
                     one place independent of all the other branches. This way
                     you won’t lose work by bringing changes together.
                   </p>
-                  <p>Click here for a detailed guide to branches</p>
-                  <h3 className="article-heading">Merging changes</h3>
+                  <p>
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches">Click here for a detailed guide to branches.</a>
+                  </p>
+                  <h3 className="article-heading" id="tc-merging-changes">Merging changes</h3>
                   <p>
                     Once everyone is working on their own branch, there will be
                     a point where all those changes need to come together to
@@ -350,7 +389,8 @@ function Article() {
                     Branch → ‘Merge into current branch…’ A window will appear
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img07}></img>
+                    <p className="img-sub-text">Figure 5</p>
                   </div>
                   <p>
                     In figure 5, my selected branch is master, the main project,
@@ -362,7 +402,9 @@ function Article() {
                     important that you read and trust what is said before
                     merging. Click merge, it is that easy!
                   </p>
-                  <p>Click here for a, somewhat, detailed guide to merging</p>
+                  <p>
+                    <a target="blank" href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch">Click here for a, somewhat, detailed guide to merging.</a>
+                  </p>
                   <p>
                     <u>Resolving merge conflicts in GitHub Desktop</u>
                     <br></br>
@@ -371,7 +413,8 @@ function Article() {
                     beforehand (Fig. 6).
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img08}></img>
+                    <p className="img-sub-text">Figure 6</p>
                   </div>
 
                   <p>Everything is fine..O_O</p>
@@ -398,10 +441,11 @@ function Article() {
                   </p>
 
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img09}></img>
+                    <p className="img-sub-text">Figure 7</p>
                   </div>
 
-                  <h3 className="article-heading">
+                  <h3 className="article-heading" id="tc-using-vs">
                     Using Visual Code to solve merge conflicts
                   </h3>
                   <p>
@@ -412,12 +456,14 @@ function Article() {
                     the conflicted file.
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img09}></img>
+                    <p className="img-sub-text">Figure 8</p>
                   </div>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img10}></img>
+                    <p className="img-sub-text">Figure 9</p>
                   </div>
-
+     
                   <p>
                     You should see the conflicted file once it opens and on the
                     left, you’ll see a branch symbol (Fig. 9). Click that and
@@ -433,17 +479,23 @@ function Article() {
                     conflict by selecting the incoming changes or the current
                     ones (Fig. 10)
                   </p>
+
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img11}></img>
+                    <p className="img-sub-text">Figure 10</p>
                   </div>
+
                   <p>
                     Another way to resolve conflicts is by going directly in the
                     code. In this example, I have a conflict at the variable
                     speed (Fig. 11).
                   </p>
+
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg}></img>
+                    <img className="img-full" src={img12}></img>
+                    <p className="img-sub-text">Figure 11</p>
                   </div>
+
                   <p>
                     The green code is the current changes, the changes on the
                     current branch. The blue code is the incoming change, the
@@ -459,7 +511,7 @@ function Article() {
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading">Our Best Practices</h2>
+                  <h2 className="article-heading" id="tc-best-practices">Our Best Practices</h2>
                   <h3 className="article-heading">Learn git command line :)</h3>
                   <p>
                     I highly recommend learning git command line because that
@@ -510,8 +562,16 @@ function Article() {
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
-                    <li><a href="#title">Title</a></li>
-                    <li><a href="#setup">Setup</a></li>
+                    <li><a href="#tc-title"><p>Title</p></a></li>
+                    <li><a href="#tc-setup"><p>Setup</p></a></li>
+                    <li><a href="#tc-using-github-desktop"><p>Using GitHub Desktop</p></a></li>
+                    <li><a href="#tc-im-the-host"><p>I'm the host of the project</p></a></li>
+                    <li><a href="#tc-im-joining"><p>I'm tying to join the project</p></a></li>
+                    <li><a href="#tc-uploading"><p>Uploading changes</p></a></li>
+                    <li><a href="#tc-working-with-others"><p>Working with others</p></a></li>
+                    <li><a href="#tc-merging-changes"><p>Merging changes</p></a></li>
+                    <li><a href="#tc-using-vs"><p>Using Visual Code to solve merges</p></a></li>
+                    <li><a href="#tc-best-practices"><p>Best practices for git</p></a></li>
                   </ul>
                 </div>
               </div>
