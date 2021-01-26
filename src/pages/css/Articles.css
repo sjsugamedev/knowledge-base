@@ -1,3 +1,270 @@
-.Featured {
-    background-color: bisque;
+body
+{
+    /*background-color: #ebebeb;*/
+    background-image: url("../../system/img/bng_grid.jpg");
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article-go-top {
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    border-radius: 100%;
+    visibility: hidden;
+}
+
+.article-go-top i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+}
+
+.article-page {
+    margin: 0;
+    position: relative;
+}
+
+.page-body {
+    padding: 8em 0 4em;
+}
+
+.page-grid {
+    display: grid;
+    width: auto;
+    height: 100%;
+    grid-template-areas: "left center right";
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    margin: 0 50px;
+}
+
+.left {
+    grid-area: left;
+}
+
+.left .content, .right .content {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+}
+
+.center {
+    grid-area: center;
+    word-wrap:break-word;
+}
+
+.right {
+    grid-area: right;
+}
+
+.article {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,2,.23);
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    text-align: center;
+    overflow: hidden;    
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    position: relative;
+}
+
+.hero-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.article-container {
+    padding-left: 1in;
+    padding-right: 1in;
+    padding-bottom: 30px;
+}
+
+.article-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.article-title {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.author-n-date h3 {
+    font-weight: normal;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.article-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.article-heading {
+    font-family: 'Play', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.p-indent {text-indent: 50px;}
+
+.article-img {
+    text-align: center;
+    /* This was causing some unnecessary blank space*/
+    /* height: 450px; */
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article-img .img-full {
+    max-width: 100%;
+}
+
+
+.back {
+    width: 180px;
+    margin-left: auto;
+    padding: 1em 0;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,2,.23);
+}
+
+.back-icon {
+    display: block;
+    font-size: 50px;
+    color: #bdbdbd;
+}
+
+.back-text {
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.print-menu {
+    width: 200px;
+    margin-right: auto;
+    padding: 1em 2em;
+    font-size: 16px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,2,.23);
+}
+
+.print-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.print-link:hover {
+    /* font-weight: bold; */
+    opacity: 60%;
+}
+
+.line {
+    margin-bottom: 1em;
+}
+
+.article-types {
+    padding: 2px 5px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.article-types:hover {
+    opacity: 60%;
+}
+
+.article-tags {
+    text-align: left;
+}
+
+.table-of-content p {
+    margin-bottom: 0;
+}
+
+.table-of-content ul {
+    margin-top: 0;
+    padding: 15px;
+}
+
+.table-of-content ul li p
+{
+    display:inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: blue;
+    text-decoration: underline;
+}
+
+.table-of-content ul li p:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+@media only screen and (max-width: 1220px) {
+    .article-go-top {
+        visibility: visible;
+    }
+
+	.page-grid {
+        grid-template-areas: "right right right" "center center center" ". left .";
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        margin: 0;
+    }
+
+    .article-container {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .left .content, .right .content {
+        position: relative;
+    }
+
+    .back {
+        width: auto;
+    }
+
+    .print-menu {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
