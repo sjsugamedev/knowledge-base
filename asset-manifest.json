@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/knowledge-base/static/css/main.f3922963.chunk.css",
-    "main.js": "/knowledge-base/static/js/main.b07ed4b4.chunk.js",
-    "main.js.map": "/knowledge-base/static/js/main.b07ed4b4.chunk.js.map",
+    "main.js": "/knowledge-base/static/js/main.e8749e52.chunk.js",
+    "main.js.map": "/knowledge-base/static/js/main.e8749e52.chunk.js.map",
     "runtime-main.js": "/knowledge-base/static/js/runtime-main.6f9a63b6.js",
     "runtime-main.js.map": "/knowledge-base/static/js/runtime-main.6f9a63b6.js.map",
-    "static/js/2.535f817f.chunk.js": "/knowledge-base/static/js/2.535f817f.chunk.js",
-    "static/js/2.535f817f.chunk.js.map": "/knowledge-base/static/js/2.535f817f.chunk.js.map",
+    "static/js/2.121f36f6.chunk.js": "/knowledge-base/static/js/2.121f36f6.chunk.js",
+    "static/js/2.121f36f6.chunk.js.map": "/knowledge-base/static/js/2.121f36f6.chunk.js.map",
     "index.html": "/knowledge-base/index.html",
     "static/css/main.f3922963.chunk.css.map": "/knowledge-base/static/css/main.f3922963.chunk.css.map",
-    "static/js/2.535f817f.chunk.js.LICENSE.txt": "/knowledge-base/static/js/2.535f817f.chunk.js.LICENSE.txt",
+    "static/js/2.121f36f6.chunk.js.LICENSE.txt": "/knowledge-base/static/js/2.121f36f6.chunk.js.LICENSE.txt",
     "static/media/Using git without the command line.d9b1beba.pdf": "/knowledge-base/static/media/Using git without the command line.d9b1beba.pdf",
     "static/media/compass.1be69260.png": "/knowledge-base/static/media/compass.1be69260.png",
     "static/media/img_article02_01.d7f41b2c.jpg": "/knowledge-base/static/media/img_article02_01.d7f41b2c.jpg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6f9a63b6.js",
-    "static/js/2.535f817f.chunk.js",
+    "static/js/2.121f36f6.chunk.js",
     "static/css/main.f3922963.chunk.css",
-    "static/js/main.b07ed4b4.chunk.js"
+    "static/js/main.e8749e52.chunk.js"
   ]
 }
