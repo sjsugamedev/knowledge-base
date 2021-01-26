@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 //Import every page
 import Home from './pages/Home';
@@ -24,7 +24,7 @@ export default function Routes(props) {
     ]
 
     return (
-        <HashRouter>
+        <Router>
             <Switch>
                 {routes.map((route, index) => {
                     return <Route exact key={index}
@@ -32,6 +32,6 @@ export default function Routes(props) {
                 })}
                 <Route component={Home} />
             </Switch>
-        </HashRouter>
+        </Router>
     )
 }
