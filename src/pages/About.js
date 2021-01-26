@@ -121,7 +121,7 @@ function About() {
             </div>
           </div>
 
-          <div className="right"></div>x
+          <div className="right"></div>
         </div>
       </div>
     </div>
