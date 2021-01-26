@@ -8,7 +8,7 @@ function About() {
     <div className="article-page">
       <div className="navbar">
         <div className="navbar-header">
-          <Link className="navbar-title" href="/">
+          <Link className="navbar-title" to="/">
             Knowledge Base
           </Link>
         </div>

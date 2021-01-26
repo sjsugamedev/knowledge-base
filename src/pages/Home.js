@@ -9,7 +9,7 @@ function Home() {
     <div className = "home" alt = "">
       <div className="navbar">
         <div className="navbar-header">
-          <Link className="navbar-title" href="/">Knowledge Base</Link>
+          <Link className="navbar-title" to="/">Knowledge Base</Link>
         </div>
         <div className="navbar-collapse">
           <ul>
