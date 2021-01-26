@@ -3,6 +3,7 @@ import '../css/Articles.css';
 import { IoMdReturnLeft, IoMdArrowUp } from 'react-icons/io';
 import HeroImg from './img/compass.png';
 import pdf from './download/Using git without the command line.pdf';
+import { Link } from 'react-router-dom';
 
 // Important!
 // The links on the Table of Contents will focus the screen to specific parts of the Artcile
@@ -26,7 +27,7 @@ function Article() {
         </div>
         <div className="navbar-collapse">
           <ul>
-            <li><a href="/about">About</a></li>
+            <li><Link to="/about">About</Link></li>
             <li><a href="https://sjsugamedev.com/">GameDev</a></li>
           </ul>
         </div>

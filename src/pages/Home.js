@@ -1,9 +1,8 @@
 import React from 'react';
 import './css/Home.css';
 import Picture from './images/picture1.jpg';
-import Article02 from './images/img_article02_thumbnail.jpg'
-
- 
+import Article02 from './images/img_article02_thumbnail.jpg';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -14,7 +13,7 @@ function Home() {
         </div>
         <div className="navbar-collapse">
           <ul>
-            <li><a href="/about">About</a></li>
+            <li><Link to="/about">About</Link></li>
             <li><a href="https://sjsugamedev.com/">GameDev</a></li>
           </ul>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/Articles.css";
 import "./css/About.css";
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
         <div className="navbar-collapse">
           <ul>
             <li>
-              <a href="/">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <a href="https://sjsugamedev.com/">GameDev</a>

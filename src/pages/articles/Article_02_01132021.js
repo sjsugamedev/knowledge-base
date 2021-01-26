@@ -16,6 +16,7 @@ import img11 from "./img/article_02/img_article02_11.jpg";
 import img12 from "./img/article_02/img_article02_12.jpg";
 import img13 from "./img/article_02/img_article02_13.jpg";
 import pdf from './download/Using git without the command line.pdf';
+import { Link } from 'react-router-dom';
 
 function Article() {
   function scrollTo(str) {
@@ -36,7 +37,7 @@ function Article() {
         <div className="navbar-collapse">
           <ul>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <a href="https://sjsugamedev.com/">GameDev</a>
