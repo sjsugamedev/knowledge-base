@@ -62,6 +62,7 @@ function Home() {
             </div>
             
             <div className = "home-all-article-grid">
+
               <Link to="/using-git-without-cmd">
                 <div className = "all-article">
                   <div className="thumbnail">
@@ -81,6 +82,8 @@ function Home() {
                   <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
                 </div>
               </Link> */}
+              
+
             </div>
             
           </div>
