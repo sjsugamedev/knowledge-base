@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/Articles.css";
-import { IoMdReturnLeft } from "react-icons/io";
+import { IoMdReturnLeft, IoMdArrowUp } from "react-icons/io";
 import HeroImg2 from "./img/article_02/img_article02_cover_2.png";
 import img01 from "./img/article_02/img_article02_01.jpg";
 import img02 from "./img/article_02/img_article02_02.jpg";
@@ -18,6 +18,13 @@ import img13 from "./img/article_02/img_article02_13.jpg";
 import pdf from './download/Using git without the command line.pdf';
 
 function Article() {
+  function scrollTo(str) {
+    // console.log(str);
+    if(document.querySelector(str)){
+      document.querySelector(str).scrollIntoView();
+    }
+  }
+
   return (
     <div className="article-page">
       <div className="navbar">
@@ -36,6 +43,10 @@ function Article() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="article-go-top">
+        <i onClick={()=>{window.scrollTo(0,0)}}><IoMdArrowUp/></i>
       </div>
 
       <div className="page-body">
@@ -60,7 +71,7 @@ function Article() {
               </div>
               <div className="article-container">
                 <div className="article-header">
-                  <h1 className="article-title" id="title">
+                  <h1 className="article-title" id="tc-title">
                     Using git without the command line
                   </h1>
                   <div className="author-n-date">
@@ -562,16 +573,16 @@ function Article() {
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
-                    <li><a href="#tc-title"><p>Title</p></a></li>
-                    <li><a href="#tc-setup"><p>Setup</p></a></li>
-                    <li><a href="#tc-using-github-desktop"><p>Using GitHub Desktop</p></a></li>
-                    <li><a href="#tc-im-the-host"><p>I'm the host of the project</p></a></li>
-                    <li><a href="#tc-im-joining"><p>I'm tying to join the project</p></a></li>
-                    <li><a href="#tc-uploading"><p>Uploading changes</p></a></li>
-                    <li><a href="#tc-working-with-others"><p>Working with others</p></a></li>
-                    <li><a href="#tc-merging-changes"><p>Merging changes</p></a></li>
-                    <li><a href="#tc-using-vs"><p>Using Visual Code to solve merges</p></a></li>
-                    <li><a href="#tc-best-practices"><p>Best practices for git</p></a></li>
+                    <li onClick={()=>{scrollTo("#tc-title")}}><p>Title</p></li>
+                    <li onClick={()=>{scrollTo("#tc-setup")}}><p>Setup</p></li>
+                    <li onClick={()=>{scrollTo("#tc-using-github-desktop")}}><p>Using GitHub Desktop</p></li>
+                    <li nClick={()=>{scrollTo("#tc-im-the-host")}}><p>I'm the host of the project</p></li>
+                    <li nClick={()=>{scrollTo("#tc-im-joining")}}><p>I'm tying to join the project</p></li>
+                    <li nClick={()=>{scrollTo("#tc-uploading")}}><p>Uploading changes</p></li>
+                    <li nClick={()=>{scrollTo("#tc-working-with-others")}}><p>Working with others</p></li>
+                    <li nClick={()=>{scrollTo("#tc-merging-changes")}}><p>Merging changes</p></li>
+                    <li nClick={()=>{scrollTo("#tc-using-vs")}}><p>Using Visual Code to solve merges</p></li>
+                    <li nClick={()=>{scrollTo("#tc-best-practices")}}><p>Best practices for git</p></li>
                   </ul>
                 </div>
               </div>

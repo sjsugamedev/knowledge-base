@@ -9,6 +9,27 @@ html {
     scroll-behavior: smooth;
 }
 
+.article-go-top {
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    border-radius: 100%;
+    visibility: hidden;
+}
+
+.article-go-top i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+}
+
 .article-page {
     margin: 0;
     position: relative;
@@ -31,6 +52,12 @@ html {
 
 .left {
     grid-area: left;
+}
+
+.left .content, .right .content {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
 }
 
 .center {
@@ -192,7 +219,7 @@ html {
     padding: 15px;
 }
 
-.table-of-content ul li a p
+.table-of-content ul li p
 {
     display:inline-block;
     vertical-align: middle;
@@ -201,13 +228,20 @@ html {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: blue;
+    text-decoration: underline;
 }
 
-.table-of-content ul li a:hover {
+.table-of-content ul li p:hover {
+    cursor: pointer;
     opacity: 60%;
 }
 
 @media only screen and (max-width: 1220px) {
+    .article-go-top {
+        visibility: visible;
+    }
+
 	.page-grid {
         grid-template-areas: "right right right" "center center center" ". left .";
         grid-column-gap: 25px;
@@ -218,7 +252,11 @@ html {
     .article-container {
         padding-left: 10vw;
         padding-right: 10vw;
-    }   
+    }
+
+    .left .content, .right .content {
+        position: relative;
+    }
 
     .back {
         width: auto;

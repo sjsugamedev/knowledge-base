@@ -24,7 +24,7 @@ function Home() {
 
       <div className = "feature-article-container">
        
-       <div className = "featured">
+        <div className = "featured">
          
          <h1>Featured</h1>
           <div>
@@ -46,9 +46,8 @@ function Home() {
               <h3>Head of Article</h3>
               <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
             </div>
-         </div> */}
-         
-      </div>
+          </div> */}
+         </div>
       </div>
        
        
@@ -57,10 +56,10 @@ function Home() {
           <div className="all-article-container">
             <div className="links">
               <h3 className = "headers">All Articles</h3>
-              <a href="">Tutorial</a>
+              {/* <a href="">Tutorial</a>
               <a href="">Devs Log</a>
               <a href="">News</a>
-              <a href="">Research</a>
+              <a href="">Research</a> */}
             </div>
             
             <div className = "all-article-grid">
@@ -71,59 +70,9 @@ function Home() {
                 <h3>Using git without the command line</h3>
                 <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
               </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
-              <div className = "all-article">
-                <div className="thumbnail">
-                  <img src = {Picture} className = "photo" alt =''></img>
-                </div>
-                <h3>Head of Article</h3>
-                <p> Exercitation voluptate amet magna veniam minim eu ex duis ipsum dolore dolor adipisicing. </p>
-              </div>
             </div>
-            </div>
-            
           </div>
+        </div>
          
     </div>
   );

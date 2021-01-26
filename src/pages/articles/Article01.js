@@ -1,17 +1,23 @@
 import React from 'react';
 import '../css/Articles.css';
-import { IoMdReturnLeft } from 'react-icons/io';
+import { IoMdReturnLeft, IoMdArrowUp } from 'react-icons/io';
 import HeroImg from './img/compass.png';
 import pdf from './download/Using git without the command line.pdf';
 
 // Important!
 // The links on the Table of Contents will focus the screen to specific parts of the Artcile
 // For the links to work, add an id to a specific tag/element in the article (ie <div id="IdNameHere"></div>)
-// Be mindful of what id name you use, because it will be displayed on the url once the table of content links are clicked
-// Then add "#" with the name of that id to the href="" of the Table of Contents "a" tags (ie <a href="#IdNameHere"></a>)
+// Then add "#" with the name of that id to the onClick event of the Table of Contents li tags (ie <li onClick={()=>{scrollTo("#index0")}}>A</li>)
 //
 
 function Article() {
+  function scrollTo(str) {
+    // console.log(str);
+    if(document.querySelector(str)){
+      document.querySelector(str).scrollIntoView();
+    }
+  }
+
   return (
     <div className="article-page">
       <div className="navbar">
@@ -24,6 +30,10 @@ function Article() {
             <li><a href="https://sjsugamedev.com/">GameDev</a></li>
           </ul>
         </div>
+      </div>
+
+      <div className="article-go-top">
+        <i onClick={()=>{window.scrollTo(0,0)}}><IoMdArrowUp/></i>
       </div>
 
       <div className="page-body">
@@ -107,8 +117,8 @@ function Article() {
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
-                    <li><a href="#index0">A</a></li>
-                    <li><a href="#index1">A</a></li>
+                    <li onClick={()=>{scrollTo("#index0")}}><p>Index 1</p></li>
+                    <li onClick={()=>{scrollTo("#index1")}}>A</li>
                   </ul>
                 </div>
               </div>
