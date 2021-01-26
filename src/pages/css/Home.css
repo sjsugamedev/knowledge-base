@@ -33,7 +33,7 @@
   width: 100%;
 }
  
-.featured {
+.home-featured {
   padding-top: 15px;
   padding-bottom: 35px;
   margin: auto 5.5rem;
@@ -86,10 +86,6 @@
    
 }
 
-.home-all-article-container{
-  margin: auto 5.5rem; 
-}
-
 .links {
  padding-top: 2rem;
  padding-bottom: 2rem;
@@ -121,7 +117,7 @@
   grid-row-gap: 35px ;
 }
 
-.all-article-container{
+.home-all-article-container{
   padding-top: 15px;
   padding-bottom: 35px;
   margin: auto 5.5rem; 
