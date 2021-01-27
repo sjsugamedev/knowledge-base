@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/knowledge-base/static/css/main.83f931e6.chunk.css",
+    "main.css": "/knowledge-base/static/css/main.a31ff74f.chunk.css",
     "main.js": "/knowledge-base/static/js/main.764b2bd6.chunk.js",
     "main.js.map": "/knowledge-base/static/js/main.764b2bd6.chunk.js.map",
     "runtime-main.js": "/knowledge-base/static/js/runtime-main.6f9a63b6.js",
@@ -8,7 +8,7 @@
     "static/js/2.d649c996.chunk.js": "/knowledge-base/static/js/2.d649c996.chunk.js",
     "static/js/2.d649c996.chunk.js.map": "/knowledge-base/static/js/2.d649c996.chunk.js.map",
     "index.html": "/knowledge-base/index.html",
-    "static/css/main.83f931e6.chunk.css.map": "/knowledge-base/static/css/main.83f931e6.chunk.css.map",
+    "static/css/main.a31ff74f.chunk.css.map": "/knowledge-base/static/css/main.a31ff74f.chunk.css.map",
     "static/js/2.d649c996.chunk.js.LICENSE.txt": "/knowledge-base/static/js/2.d649c996.chunk.js.LICENSE.txt",
     "static/media/Using git without the command line.d9b1beba.pdf": "/knowledge-base/static/media/Using git without the command line.d9b1beba.pdf",
     "static/media/compass.1be69260.png": "/knowledge-base/static/media/compass.1be69260.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.6f9a63b6.js",
     "static/js/2.d649c996.chunk.js",
-    "static/css/main.83f931e6.chunk.css",
+    "static/css/main.a31ff74f.chunk.css",
     "static/js/main.764b2bd6.chunk.js"
   ]
 }
