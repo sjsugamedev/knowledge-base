@@ -119,7 +119,7 @@ function Article() {
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading" id="setup">Setup</h2>
+                  <h2 className="article-heading" id="tc-setup">Setup</h2>
                   <p className="p-indent">
                     Install GitHub Desktop and Visual Code. Make sure that the
                     editor for GitHub Desktop is set to Visual Code. 
