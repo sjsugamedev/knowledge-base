@@ -42,8 +42,8 @@ function Article() {
           <div className="left">
             <div className="content">
               <div className="back">
-                <a className="back-text" href="/">Back to Articles</a>
-                <a className="back-icon" href="/"><IoMdReturnLeft/></a>
+                <Link className="back-text" to="/">Back to Articles</Link>
+                <Link className="back-icon" to="/"><IoMdReturnLeft/></Link>
               </div>
             </div>
           </div>
