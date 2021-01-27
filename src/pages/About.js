@@ -1,20 +1,21 @@
 import React from "react";
 import "./css/Articles.css";
 import "./css/About.css";
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
     <div className="article-page">
       <div className="navbar">
         <div className="navbar-header">
-          <a className="navbar-title" href="/">
+          <Link className="navbar-title" to="/">
             Knowledge Base
-          </a>
+          </Link>
         </div>
         <div className="navbar-collapse">
           <ul>
             <li>
-              <a href="/">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <a href="https://sjsugamedev.com/">GameDev</a>
