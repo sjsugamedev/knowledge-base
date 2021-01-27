@@ -577,13 +577,13 @@ function Article() {
                     <li onClick={()=>{scrollTo("#tc-title")}}><p>Title</p></li>
                     <li onClick={()=>{scrollTo("#tc-setup")}}><p>Setup</p></li>
                     <li onClick={()=>{scrollTo("#tc-using-github-desktop")}}><p>Using GitHub Desktop</p></li>
-                    <li nClick={()=>{scrollTo("#tc-im-the-host")}}><p>I'm the host of the project</p></li>
-                    <li nClick={()=>{scrollTo("#tc-im-joining")}}><p>I'm tying to join the project</p></li>
-                    <li nClick={()=>{scrollTo("#tc-uploading")}}><p>Uploading changes</p></li>
-                    <li nClick={()=>{scrollTo("#tc-working-with-others")}}><p>Working with others</p></li>
-                    <li nClick={()=>{scrollTo("#tc-merging-changes")}}><p>Merging changes</p></li>
-                    <li nClick={()=>{scrollTo("#tc-using-vs")}}><p>Using Visual Code to solve merges</p></li>
-                    <li nClick={()=>{scrollTo("#tc-best-practices")}}><p>Best practices for git</p></li>
+                    <li onClick={()=>{scrollTo("#tc-im-the-host")}}><p>I'm the host of the project</p></li>
+                    <li onClick={()=>{scrollTo("#tc-im-joining")}}><p>I'm tying to join the project</p></li>
+                    <li onClick={()=>{scrollTo("#tc-uploading")}}><p>Uploading changes</p></li>
+                    <li onClick={()=>{scrollTo("#tc-working-with-others")}}><p>Working with others</p></li>
+                    <li onClick={()=>{scrollTo("#tc-merging-changes")}}><p>Merging changes</p></li>
+                    <li onClick={()=>{scrollTo("#tc-using-vs")}}><p>Using Visual Code to solve merges</p></li>
+                    <li onClick={()=>{scrollTo("#tc-best-practices")}}><p>Best practices for git</p></li>
                   </ul>
                 </div>
               </div>
