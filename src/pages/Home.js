@@ -73,6 +73,7 @@ function Home() {
                 </div>
               </Link>
 
+
               {/* <Link to="/using-git-without-cmd">
                 <div className = "all-article">
                   <div className="thumbnail">
