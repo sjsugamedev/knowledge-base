@@ -2,6 +2,7 @@ import React from 'react';
 import './css/Home.css';
 import Picture from './images/picture1.jpg';
 import Article02 from './images/img_article02_thumbnail.jpg';
+import Article03 from './images/img_article03_thumbnail.png';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -62,6 +63,16 @@ function Home() {
             </div>
             
             <div className = "home-all-article-grid">
+
+              <Link to="/using-git-without-cmd">
+                <div className = "all-article">
+                  <div className="thumbnail">
+                    <img src = {Article03} className = "photo" alt =''></img>
+                  </div>
+                  <h3>Making Friends in 48 hours</h3>
+                  <p>Read to learn about SJSU's experience with making games during Global Game Jam 2021</p>
+                </div>
+              </Link>
 
               <Link to="/using-git-without-cmd">
                 <div className = "all-article">
