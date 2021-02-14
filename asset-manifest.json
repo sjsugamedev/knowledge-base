@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/knowledge-base/static/css/main.f64a7d76.chunk.css",
-    "main.js": "/knowledge-base/static/js/main.b077fa48.chunk.js",
-    "main.js.map": "/knowledge-base/static/js/main.b077fa48.chunk.js.map",
+    "main.js": "/knowledge-base/static/js/main.f2db1f61.chunk.js",
+    "main.js.map": "/knowledge-base/static/js/main.f2db1f61.chunk.js.map",
     "runtime-main.js": "/knowledge-base/static/js/runtime-main.6f9a63b6.js",
     "runtime-main.js.map": "/knowledge-base/static/js/runtime-main.6f9a63b6.js.map",
-    "static/js/2.1671e842.chunk.js": "/knowledge-base/static/js/2.1671e842.chunk.js",
-    "static/js/2.1671e842.chunk.js.map": "/knowledge-base/static/js/2.1671e842.chunk.js.map",
+    "static/js/2.89a0a4d6.chunk.js": "/knowledge-base/static/js/2.89a0a4d6.chunk.js",
+    "static/js/2.89a0a4d6.chunk.js.map": "/knowledge-base/static/js/2.89a0a4d6.chunk.js.map",
     "index.html": "/knowledge-base/index.html",
     "static/css/main.f64a7d76.chunk.css.map": "/knowledge-base/static/css/main.f64a7d76.chunk.css.map",
-    "static/js/2.1671e842.chunk.js.LICENSE.txt": "/knowledge-base/static/js/2.1671e842.chunk.js.LICENSE.txt",
+    "static/js/2.89a0a4d6.chunk.js.LICENSE.txt": "/knowledge-base/static/js/2.89a0a4d6.chunk.js.LICENSE.txt",
+    "static/media/GGJ 2021.c51b685f.pdf": "/knowledge-base/static/media/GGJ 2021.c51b685f.pdf",
     "static/media/Using git without the command line.d9b1beba.pdf": "/knowledge-base/static/media/Using git without the command line.d9b1beba.pdf",
     "static/media/compass.1be69260.png": "/knowledge-base/static/media/compass.1be69260.png",
     "static/media/img_article02_01.d7f41b2c.jpg": "/knowledge-base/static/media/img_article02_01.d7f41b2c.jpg",
@@ -25,12 +26,20 @@
     "static/media/img_article02_13.0f749238.jpg": "/knowledge-base/static/media/img_article02_13.0f749238.jpg",
     "static/media/img_article02_cover_2.0376b305.png": "/knowledge-base/static/media/img_article02_cover_2.0376b305.png",
     "static/media/img_article02_thumbnail.0d8f7535.jpg": "/knowledge-base/static/media/img_article02_thumbnail.0d8f7535.jpg",
+    "static/media/img_article03_1.bd807ee6.png": "/knowledge-base/static/media/img_article03_1.bd807ee6.png",
+    "static/media/img_article03_2.569be426.png": "/knowledge-base/static/media/img_article03_2.569be426.png",
+    "static/media/img_article03_3.31756172.png": "/knowledge-base/static/media/img_article03_3.31756172.png",
+    "static/media/img_article03_4.7f37783b.png": "/knowledge-base/static/media/img_article03_4.7f37783b.png",
+    "static/media/img_article03_5.c102b1b0.png": "/knowledge-base/static/media/img_article03_5.c102b1b0.png",
+    "static/media/img_article03_6.644d336d.png": "/knowledge-base/static/media/img_article03_6.644d336d.png",
+    "static/media/img_article03_cover.9490eea1.png": "/knowledge-base/static/media/img_article03_cover.9490eea1.png",
+    "static/media/img_article03_thumbnail.325ba86a.png": "/knowledge-base/static/media/img_article03_thumbnail.325ba86a.png",
     "static/media/picture1.a9bdd94e.jpg": "/knowledge-base/static/media/picture1.a9bdd94e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6f9a63b6.js",
-    "static/js/2.1671e842.chunk.js",
+    "static/js/2.89a0a4d6.chunk.js",
     "static/css/main.f64a7d76.chunk.css",
-    "static/js/main.b077fa48.chunk.js"
+    "static/js/main.f2db1f61.chunk.js"
   ]
 }
