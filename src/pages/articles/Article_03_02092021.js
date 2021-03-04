@@ -48,12 +48,12 @@ function Article() {
           <div className="left">
             <div className="content">
               <div className="back">
-                <a className="back-text" href="/">
+                <Link className="back-text" to="/">
                   Back to Articles
-                </a>
-                <a className="back-icon" href="/">
+                </Link>
+                <Link className="back-icon" to="/">
                   <IoMdReturnLeft />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
