@@ -1,7 +1,8 @@
 import React from 'react';
 import "../css/Articles.css";
 import { IoMdReturnLeft, IoMdArrowUp } from "react-icons/io";
-import HeroImg2 from "./img/article_02/img_article02_cover_2.png";
+import HeroImg2 from "./img/article_04/img_article04_cover.png";
+import Img_Article04_1 from "./img/article_04/img_article04_1.png";
 import pdf from './download/Interview with Michael Tucker.pdf';
 import { Link } from 'react-router-dom';
 
@@ -64,7 +65,7 @@ function Article() {
                   </h1>
                   <div className="author-n-date">
                     <h3>Cole Pergerson</h3>
-                    <h3>Date 02/03/2021</h3>
+                    <h3>Date 03/04/2021</h3>
                   </div>
                 </div>
 
@@ -77,7 +78,7 @@ function Article() {
                     SJSU students about project management in game development.
                   </p>
                   <div className="article-img">
-                    <img className="img-full" src={HeroImg2}></img>
+                    <img className="img-full" src={Img_Article04_1}></img>
                     <p className="img-sub-text">Here is a link to the full video interview: <a href="https://www.youtube.com/watch?v=cGjyi71H6NY&ab_channel=dma" target="_blank">https://www.youtube.com/watch?v=cGjyi71H6NY&ab_channel=dma</a></p>
                   </div>
         
@@ -101,12 +102,12 @@ function Article() {
                   </p>
 
                   <p>
-                    James Morgan: I'm a James Morgan I teach in the digital media arts I'm also the advisor for the
+                    James Morgan: I'm James Morgan I teach in the digital media arts program. I'm also the advisor for the
                     game development Club and I teach a class in game studies.
                   </p>
 
                   <p>
-                    Cole Pergerson: I'm Cole Pergerson, I'm a student at SSU and my major is Digital Media Art
+                    Cole Pergerson: I'm Cole Pergerson, I'm a student at SJSU and my major is Digital Media Art
                     and I've been making games for about three years and trying to learn more.
                   </p>
 
@@ -124,7 +125,7 @@ function Article() {
                   <p>
                     Michael: At Double Fine, we use a product management tool called JIRA, which is an obtuse
                     and standard tool in the industry. For a smaller team, I recommend using Trello because JIRA is
-                    best for large teams. Using Trello is much more similar, it’s like digital sticky notes that you
+                    best for large teams. Using Trello is much more simpler, it’s like digital sticky notes that you
                     would place on a SCRUM board. For those who don’t know, SCRUM is a software development
                     process that would be valuable for any student to understand when working with others. It’s a
                     way to get different groups to work together, quickly review their work, and make next-step
@@ -146,7 +147,7 @@ function Article() {
                     point, you’re just playing the game and choosing things to improve. Managing that process is
                     much easier. I often read dev logs or post mortems to see how other studios handle problems.
                     Gamasutra.com is a great resource and I recently read a blog from a playstation studio
-                    developing Astro Bot. They explained how they design one of their boss battles which involve
+                    developing Astro Bot. They explained how they design one of their boss battles which involved
                     lots of iteration. First the designers and artists would sketch out an idea and then the
                     programmers would take that and make a playable prototype. Once the sprint ended, they
                     would review the prototype and decide what they would do next. They continued that iterative
@@ -162,10 +163,10 @@ function Article() {
                     Michael: So the sprint is kind of like a smaller breakdown of a larger goal called milestones. We
                     layout milestones months apart with keystone goals. It’s not common that these milestones
                     change since it’s unknown how long features will take to finish at the beginning of production.
-                    So if we were making a 3D platformer, the first milestone might be just getting a play character
+                    So if we were making a 3D platformer, the first milestone might be just getting a playable character
                     walking and jumping around an empty environment with animations. Once we layout the
                     milestones, we split the time between milestones into manageable steps called sprints. When a
-                    team finishes a sprint, their team lead will tell them whether what they made will or not work. If
+                    team finishes a sprint, their team leader will tell them whether what they made will or not work. If
                     there is a problem, then that means future sprints need to be readjusted but that’s ok.
                   </p>
 
@@ -212,7 +213,7 @@ function Article() {
 
                   <p>
                     Cole: Is there anything that other people take for granted for what a producer does or maybe
-                    does it appreciate what a producer does?
+                    doesn't appreciate what a producer does?
                   </p>
 
                   <p>
@@ -222,7 +223,7 @@ function Article() {
                     first. Running meetings is another important thing that a producer will do because it’s easy for
                     team members to go off in tangents. A meeting can go on for hours with addressing the core
                     problem that brought the meeting together originally. So making sure people are focused on the
-                    right thing saves time. One thing I didn’t like at first but is now something I find really important isnote taking.
+                    right thing saves time. One thing I didn’t like at first but is now something I find really important is note taking.
                     While the meeting is going on, I will be writing down what has been said, what has
                     been agreed on, what are the problems, etc. We often forget what we said so having notes to
                     look at for a reference is super helpful for a team. Using Google doc allows team members to go

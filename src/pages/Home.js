@@ -3,6 +3,7 @@ import './css/Home.css';
 import Picture from './images/picture1.jpg';
 import Article02 from './images/img_article02_thumbnail.jpg';
 import Article03 from './images/img_article03_thumbnail.png';
+import Article04 from './images/img_article04_thumbnail.png';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -64,7 +65,17 @@ function Home() {
             
             <div className = "home-all-article-grid">
 
-              <Link to="/using-git-without-cmd">
+            <Link to="/interview-with-michael-tucker">
+                <div className = "all-article">
+                  <div className="thumbnail">
+                    <img src = {Article04} className = "photo" alt =''></img>
+                  </div>
+                  <h3>Interview with Double Fine Producer</h3>
+                  <p>Learn about the challenges of managing a multi-disciplinary team under strict deadlines</p>
+                </div>
+              </Link>
+
+              <Link to="/making-friends-in-48-hours">
                 <div className = "all-article">
                   <div className="thumbnail">
                     <img src = {Article03} className = "photo" alt =''></img>
@@ -83,7 +94,6 @@ function Home() {
                   <p> This is a guide on how to use git without touching the command line. Basically you’ll be pressing buttons instead of writing commands.</p>
                 </div>
               </Link>
-
 
               {/* <Link to="/using-git-without-cmd">
                 <div className = "all-article">
