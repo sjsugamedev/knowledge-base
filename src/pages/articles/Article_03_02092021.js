@@ -144,8 +144,7 @@ function Article() {
 
                   <break></break>
                   <h3 className="article-heading">Little j in little room:</h3>
-                  <p>You play a raindrop that has fallen to the ground and must travel through a
-                  landscape of fire and death to reach the top of a tree.In this cute point and click game, you try to find your cat who is hiding behind
+                  <p>In this cute point and click game, you try to find your cat who is hiding behind
                   objects scattered around the room.
                   </p>
                   <div className="article-img">
@@ -236,9 +235,8 @@ function Article() {
                 </a>
                 <hr className="line"></hr>
                 <a className="article-types" href="/">
-                  tutorials
+                  club news
                 </a>
-                <p className="article-tags"> Tags: #tag #tag #tag #tag #tag</p>
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>

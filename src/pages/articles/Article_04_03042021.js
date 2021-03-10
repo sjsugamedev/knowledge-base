@@ -247,9 +247,8 @@ function Article() {
                 </a>
                 <hr className="line"></hr>
                 <a className="article-types" href="/">
-                  tutorials
+                  interview
                 </a>
-                <p className="article-tags"> Tags: #tag #tag #tag #tag #tag</p>
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
