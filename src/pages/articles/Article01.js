@@ -42,8 +42,8 @@ function Article() {
           <div className="left">
             <div className="content">
               <div className="back">
-                <a className="back-text" href="/">Back to Articles</a>
-                <a className="back-icon" href="/"><IoMdReturnLeft/></a>
+                <Link className="back-text" to="/">Back to Articles</Link>
+                <Link className="back-icon" to="/"><IoMdReturnLeft/></Link>
               </div>
             </div>
           </div>
@@ -104,6 +104,14 @@ function Article() {
                 <div className="article-img">
                   <img className="img-full" src={HeroImg}></img>
                 </div>
+                <div className="article-vid-center">
+                  {/* React will give an error that tells you to rename some attributes in the iframe */}
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/8xmBjXKAi54" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
+                <div className="article-vid-full article-vid-center">
+                  {/* React will give an error that tells you to rename some attributes in the iframe */}
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/8xmBjXKAi54" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -118,7 +126,7 @@ function Article() {
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
-                    <li onClick={()=>{scrollTo("#index0")}}><p>Index 1</p></li>
+                    <li onClick={()=>{scrollTo("#index0")}}><p title="Index 1">Index 1</p></li>
                     <li onClick={()=>{scrollTo("#index1")}}>A</li>
                   </ul>
                 </div>

@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './pages/css/Navbar.css';
 import './index.css';
 
-import MyRoute from './route';
+import MyRoute from './Route';
 
 ReactDOM.render(
   <MyRoute></MyRoute>,

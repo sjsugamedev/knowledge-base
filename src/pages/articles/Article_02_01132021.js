@@ -55,12 +55,12 @@ function Article() {
           <div className="left">
             <div className="content">
               <div className="back">
-                <a className="back-text" href="/">
+                <Link className="back-text" to="/">
                   Back to Articles
-                </a>
-                <a className="back-icon" href="/">
+                </Link>
+                <Link className="back-icon" to="/">
                   <IoMdReturnLeft />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ function Article() {
                 </div>
 
                 <div className="article-text">
-                  <h2 className="article-heading" id="setup">Setup</h2>
+                  <h2 className="article-heading" id="tc-setup">Setup</h2>
                   <p className="p-indent">
                     Install GitHub Desktop and Visual Code. Make sure that the
                     editor for GitHub Desktop is set to Visual Code. 
@@ -559,7 +559,7 @@ function Article() {
               </div>
             </div>
           </div>
-
+          
           <div className="right">
             <div className="content">
               <div className="print-menu">
@@ -570,7 +570,6 @@ function Article() {
                 <a className="article-types" href="/">
                   tutorials
                 </a>
-                <p className="article-tags"> Tags: #tag #tag #tag #tag #tag</p>
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
