@@ -19,6 +19,17 @@ function Article() {
     }
   }
 
+  const tableOfContentTitles = [
+    {
+      title: "I am number 1",
+      scrollToVal: "#index0"
+    },
+    {
+      title: "Number 2",
+      scrollToVal: "#index1"
+    }
+  ]
+
   return (
     <div className="article-page">
       <div className="navbar">
@@ -126,8 +137,11 @@ function Article() {
                 <div className="table-of-content">
                   <p>Table of Content:</p>
                   <ul>
-                    <li onClick={()=>{scrollTo("#index0")}}><p title="Index 1">Index 1</p></li>
-                    <li onClick={()=>{scrollTo("#index1")}}>A</li>
+                    {tableOfContentTitles.map((content, index) => {
+                      return <li key={index} onClick={()=>{scrollTo(content.scrollToVal)}}>
+                        <p title={content.title}>{content.title}</p>
+                      </li>
+                    })}
                   </ul>
                 </div>
               </div>
